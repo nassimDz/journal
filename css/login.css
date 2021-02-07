@@ -1,0 +1,98 @@
+*{
+  margin: 0px 0px;
+  padding: 0px 0px; 
+}
+.Header {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  background-color: #333;
+  list-style-type: none;
+  height: 180px;
+  margin-bottom: 30px;
+
+}
+
+.Header a{
+
+  display: inline-block;
+  color: white;
+  margin: 0px 16px;
+  padding:15px 15px;
+  text-decoration: none;
+}
+
+.Header  ul li{
+
+  display: inline-block;
+
+}
+
+
+.Header ul li a:hover:not(.active) {
+  background-color: #4CAF50;
+}
+.title {
+  font-size: 70px;
+  text-align: center;
+  font-family: "Times New Roman", Georgia, Serif;
+}
+.links{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.LoginFormContainer{
+  position: relative;
+  width: 500px;
+  height: 400px;
+  margin: auto;
+  background: #E74C3C;
+  border-radius: 10px;
+}
+
+.FormTitle h1{
+  position: absolute;
+  left: 50px;
+  color: #ECF0F1;
+}
+
+ .FormContent{
+  position: absolute;
+  width: 400px;
+  height: 200px;
+  top: 100px;
+  padding-left: 120px;
+
+}
+label{
+  display: block;
+	width: 150px;
+  margin-bottom: 10px;
+  color: #ECF0F1;
+}
+
+input{
+  width: 250px;
+  height: 30px;
+  border-radius: 2px;
+  padding-left: 10px;
+
+}
+
+footer{
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  font: bold 16px sans-serif;
+  padding: 30px 30px;
+  position: fixed;
+  bottom: 0px;
+}
+footer p {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+}
