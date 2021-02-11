@@ -2,8 +2,8 @@
 
 $_ENV = array(
     'TRUSTIFI_URL' => "https://be.trustifi.com",
-    'TRUSTIFI_KEY' => "fff5a53307486d935cee3cb80f1d4310c663a7969f97b84e",
-    'TRUSTIFI_SECRET' => "573ea890a10a155e91dab96ead4597a9"
+    'TRUSTIFI_KEY' => "fff5a537541a3dc75bb838ee591a4310c663a2919dc4eb40",
+    'TRUSTIFI_SECRET' => "2054c8bbb617a5450f9810b0201f698e  "
 );
 
 function sendEmail($user_email, $title, $body)
