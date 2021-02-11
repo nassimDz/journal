@@ -36,5 +36,5 @@ $curl = curl_init();
   }
 }
 
-//sendEmail("nassim.hadjarab@gmail.com", "weclome", "hello mate");
+sendEmail("nassim.hadjarab@gmail.com", "weclome", "hello mate");
 ?>
